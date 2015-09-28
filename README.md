@@ -11,7 +11,8 @@ The homepage of Birdsuite is [Here](https://www.broadinstitute.org/scientific-co
 
 -   Git clone this repo:
 
-        git clone https://github.com/psytky03/
+        git clone https://github.com/psytky03/Birdsuite_with_Docker.git
+
 
 
 

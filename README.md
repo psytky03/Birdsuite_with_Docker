@@ -46,4 +46,4 @@ This birdsuite docker image is based on Ubuntu 14.04 LTS.
         /birdsuite/birdsuite.sh --basename=test --chipType=GenomeWideSNP_6 --outputDir=output --genderFile=test.gender --celFiles=test.cels --noLsf --apt_probeset_summarize.force
 
 
-    Wait until the Birdsuite finish the run ^_^
+    Wait until the Birdsuite finish the run :-)

@@ -20,7 +20,7 @@ The homepage of Birdsuite is [Here](https://www.broadinstitute.org/scientific-co
 
 -   Download the additional annotation files/apt tool/MCR installer
         
-       wget https://dl.dropboxusercontent.com/u/964493/additional.tar.gz
+        wget https://dl.dropboxusercontent.com/u/964493/additional.tar.gz
 
 
 -   Build docker image:

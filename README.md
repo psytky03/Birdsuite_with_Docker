@@ -6,7 +6,7 @@ This birdsuite docker image is based on Ubuntu 14.04 LTS.
 
 #### Prerequisites
 
-- [Docker](https://www.docker.com/) (ver >= 1.5)
+- [Docker](https://www.docker.com/) (Version >= 1.5)
 - Internet connection
 
 #### Getting Started - Method 1 (Easy way): Pull the pre-built image from DockerHub

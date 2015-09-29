@@ -32,12 +32,14 @@ The homepage of Birdsuite is [Here](https://www.broadinstitute.org/scientific-co
 
 ## Run Birdsuite with Docker 
 
--   Create a container and get into:
+-   Create a container and get inside:
 
         docker run -ti psytky03/birdsuite /bin/bash
+
+-   Run the test data:
 
         cd /test_data
         /birdsuite/birdsuite.sh --basename=test --chipType=GenomeWideSNP_6 --outputDir=output --genderFile=test.gender --celFiles=test.cels --noLsf --apt_probeset_summarize.force
 
 
-    Wait to see whether the application to finsih
+    Wait until the Birdsuite finish the run ;-)

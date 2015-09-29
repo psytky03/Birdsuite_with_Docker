@@ -4,7 +4,7 @@ The homepage of Birdsuite is [Here](https://www.broadinstitute.org/scientific-co
 
 ## Prerequisites
 
-- Docker 
+- [Docker](https://www.docker.com/) 
 - Internet connection
 
 ## Getting Started Method 1: Pulling the pre-built image from DockerHub
@@ -42,4 +42,4 @@ The homepage of Birdsuite is [Here](https://www.broadinstitute.org/scientific-co
         /birdsuite/birdsuite.sh --basename=test --chipType=GenomeWideSNP_6 --outputDir=output --genderFile=test.gender --celFiles=test.cels --noLsf --apt_probeset_summarize.force
 
 
-    Wait until the Birdsuite finish the run ;-)
+    Wait until the Birdsuite finish the run ^_^

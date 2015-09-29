@@ -4,16 +4,16 @@ The offical install guide of Birdsuite is [Here](https://www.broadinstitute.org/
 
 This birdsuite docker image is based on Ubuntu 14.04 LTS.
 
-## Prerequisites
+#### Prerequisites
 
 - [Docker](https://www.docker.com/) (ver >= 1.5)
 - Internet connection
 
-## Getting Started - Method 1 (Easy way): Pulling the pre-built image from DockerHub
+#### Getting Started - Method 1 (Easy way): Pull the pre-built image from DockerHub
 
         docker pull psytky03/birdsuite
 
-## Getting Started - Method 2: Build a local image
+#### Getting Started - Method 2: Build a local image
 
 -   Git clone this repo:
 
@@ -34,7 +34,7 @@ This birdsuite docker image is based on Ubuntu 14.04 LTS.
 
 
 
-## Run Birdsuite with Docker 
+#### Run Birdsuite with Docker 
 
 -   Create a container and get inside:
 

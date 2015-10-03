@@ -19,19 +19,10 @@ This birdsuite docker image is based on Ubuntu 14.04 LTS.
 
         git clone https://github.com/psytky03/Birdsuite_with_Docker.git
         cd Birdsuite_with_Docker
-        
-
--   Download the additional annotation files/apt tool/MCR installer
-        
-        wget https://dl.dropboxusercontent.com/u/964493/additional.tar.gz
-        tar zxvf additional.tar.gz
-
 
 -   Build docker image:
 
         docker build -t psytky03/birdsuite:latest .
-
-
 
 
 #### Run Birdsuite with Docker 

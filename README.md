@@ -23,8 +23,18 @@ This birdsuite docker image is based on Ubuntu 14.04 LTS.
 -   Build docker image:
 
         docker build -t psytky03/birdsuite:latest .
+		
+#### Getting Started - Method 3: Save a local image and transfer to offline machine		
 
+		docker pull psytky03/birdsuite
+		docker save -o birdsuite.docker psytky03/birdsuite
+	 
+	 Transfer the birdsuite.docker to the offline computer with USB and load the image from the file:
+		
+		docker load birdsuite.docker
 
+sudo docker load ubuntu_image.docker	
+		
 #### Run Birdsuite with Docker 
 
 -   Create a container and get inside:
@@ -38,3 +48,5 @@ This birdsuite docker image is based on Ubuntu 14.04 LTS.
 
 
     Wait until the Birdsuite finish the run :-)
+
+	

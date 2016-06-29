@@ -29,7 +29,7 @@ This birdsuite docker image is based on Ubuntu 14.04 LTS.
 		docker pull psytky03/birdsuite
 		docker save -o birdsuite.docker psytky03/birdsuite
 	 
-	 Transfer the birdsuite.docker to the offline computer with USB and load the image from the file:
+-	Transfer the birdsuite.docker to the offline computer with USB and load the image from the file:
 		
 		docker load birdsuite.docker
 
